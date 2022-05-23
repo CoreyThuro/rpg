@@ -5,7 +5,7 @@ body {
 .container {
     display: flex;
     justify-content: center;
-    transform: translate(0, 50%);
+    transform: translate(0, 30%);
 }
 
 .start {
@@ -15,6 +15,12 @@ body {
     animation: blinker 1s linear infinite;
 }
 
+.you-stayed {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
 @keyframes blinker {  
     50% { opacity: 0; }
   }
@@ -22,4 +28,53 @@ body {
 a { 
     text-decoration: none; 
     color: white;
+}
+
+p {
+    color: white;
+}
+
+.page2p {
+    padding: 5px;
+    text-align: center;
+}
+
+.page2yes {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.page2no {
+    margin-top: 5px;
+    text-align: center;
+}
+
+.page2dialogue {
+    background-color: rgb(0, 0, 0);
+    width: 100px;
+    height: 100px;
+    border: 5px solid;
+    border-radius: 10px;
+    border-color: white;
+    transform: translate(350%, -410%);
+}
+
+.page2dialoguea {
+    background-color: rgb(0, 0, 0);
+    width: 30px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: white;
+    transform: translate(1150%, -1330%);
+}
+
+.page2dialogueb {
+    background-color: rgb(0, 0, 0);
+    width: 30px;
+    height: 30px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: white;
+    transform: translate(1250%, -1430%);
 }
